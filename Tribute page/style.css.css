@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute to Indira Gandhi</title>
+  <style>
+    body {
+      background-color: #F1F3F6;
+      font-family: Arial, sans-serif;
+    }
+
+    .container-fluid {
+      margin-top: 50px;
+    }
+
+    .text-primary {
+      color: #007BFF;
+    }
+
+    .lead {
+      color: #6C757D;
+    }
+
+    .img-responsive {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+      border: 5px solid #007BFF;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .well {
+      background-color: #FFFFFF;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid #CED4DA;
+      border-radius: 4px;
+    }
+
+    .well h3 {
+      color: #007BFF;
+    }
+
+    .well ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      color: #343A40;
+    }
+
+    .well p {
+      color: #6C757D;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .blockquote-reverse {
+      background-color: #E9ECEF;
+      padding: 20px;
+      border-radius: 4px;
+      border-left: 5px solid #007BFF;
+      color: #343A40;
+      font-style: italic;
+    }
+
+    .blockquote-reverse cite {
+      display: block;
+      text-align: right;
+      color: #6C757D;
+      font-size: 14px;
+    }
+
+    .text-muted {
+      color: #6C757D;
+    }
+
+    .text-right {
+      text-align: right;
+    }
+
+    .small {
+      font-size: 12px;
+    }
+
+    .text-info {
+      color: #17A2B8;
+    }
+
+    .text-center a {
+      color: #007BFF;
+    }
+
+    .text-center a:hover {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <h1 class="text-center text-primary">Indira Gandhi</h1>
+      <h2 class="text-center lead">Former Prime Minister of India</h2>
+      <img class="center-block img-responsive img-rounded" src="indira-gandhi.jpg">
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="well">
+          <h3 class="text-center">Did you know?</h3>
+          <ul>
+            <li>Indira Gandhi was the first and, to date, the only female Prime Minister of India.</li>
+            <li>She implemented policies that shaped modern India, including promoting the Green Revolution and playing a significant role in the establishment of Bangladesh as a separate country.</li>
+            <li>Gandhi's leadership was marked by both praise and criticism.</li>
+            <li>She was tragically assassinated on October 31, 1984.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="well">
+          <ul>
+            <li>Indira Priyadarshini Gandhi (19 November 1917 – 31 October 1984) was an Indian politician and central figure of the Indian National Congress party. She was the daughter of Jawaharlal Nehru, the first Prime Minister of India.</li>
+            <li>During her tenure as Prime Minister, Indira Gandhi implemented numerous policies that shaped modern India. She promoted the Green Revolution, which increased agricultural production and made India self-sufficient in food. Gandhi also played a significant role in the establishment of Bangladesh as a separate country.</li>
+            <li>Indira Gandhi's leadership was marked by both praise and criticism. She faced political challenges and controversies during her time in office but remained a dominant and influential figure in Indian politics.</li>
+            <li>"You must learn to be still in the midst of activity and to be vibrantly alive in repose." - Indira Gandhi</li>
+          </ul>
+
+          <p>Indira Gandhi's legacy continues to inspire generations, and her impact on Indian politics and society is still felt today.</p>
+
+        </div>
+      </div>
+    </div>
+    <p class="text-center">Information provided by <a href="https://en.wikipedia.org/wiki/Indira_Gandhi" target="_blank">Wikipedia</a>.</p>
+  </div>
+</body>
+</html>
